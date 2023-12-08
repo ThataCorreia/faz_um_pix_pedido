@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+    height: fit-content;
+    background-color: #e9c4e1;
+    align-items: center;
+}
+
+.botão {
+    padding: 10% 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #a50197;
+    color: #eee9ee;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conteiner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.imagem {
+    width: max-content;
+    align-items: center;
+    margin: auto;
+    display: block;
+    pointer-events: none;
+}
+
+.pedido {
+    position: absolute;
+    text-align:justify;
+    justify-items: center;
+    font-size: 150%;
+    top: 58%;
+    left: 42%;
+    color: #1a1b1b;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 100px;
+    transition: all.5s;
+    color: #931569;
+    top: 70%;
+}
